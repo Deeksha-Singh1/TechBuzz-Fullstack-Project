@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>techBuzz</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="./sideNavbar/side.css">
-  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-
-  
-</head>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
+    <link rel="stylesheet" href="side.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../style.css">
+     <link rel="stylesheet" href="../sideNavbar/side.css">
+   </head>
 <body>
-  
+  <div></div>
   <div class="sidebar">
     <div class="logo-details">
       <i class='bx bxl-c-plus-plus icon'></i>
@@ -93,14 +93,37 @@
      </li>
     </ul>
   </div>
+  
+  <script>
+  let sidebar = document.querySelector(".sidebar");
+  let closeBtn = document.querySelector("#btn");
+  let searchBtn = document.querySelector(".bx-search");
 
+  closeBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("open");
+    menuBtnChange();//calling the function(optional)
+  });
 
-  <div class="main"> 
+  searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+    sidebar.classList.toggle("open");
+    menuBtnChange(); //calling the function(optional)
+  });
+
+  // following are the code to change sidebar button(optional)
+  function menuBtnChange() {
+   if(sidebar.classList.contains("open")){
+     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+   }else {
+     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+   }
+  }
+  </script>
+  <div class="main" >
     <div class="navbar">
       <div class="icon">
         <h2 class="logo">TechBuzz </h2>
         
-      </div> 
+      </div>
       
       <div class="menu">
         <ul>
@@ -143,57 +166,8 @@
         </div>
       </div>
     </div>
-    <!-- <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="footer-col">
-            <h4>company</h4>
-            <ul>
-              <li><a href="#">about us</a></li>
-              <li><a href="#">our services</a></li>
-              <li><a href="#">privacy policy</a></li>
-              <li><a href="#">affiliate program</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>get help</h4>
-            <ul>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">shipping</a></li>
-              <li><a href="#">returns</a></li>
-              <li><a href="#">order status</a></li>
-              <li><a href="#">payment options</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>online shop</h4>
-            <ul>
-              <li><a href="#">watch</a></li>
-              <li><a href="#">bag</a></li>
-              <li><a href="#">shoes</a></li>
-              <li><a href="#">dress</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>follow us</h4>
-            <div class="social-links">
-              <a href="#"
-                ><i class="fa fa-facebook-square" aria-hidden="true"></i
-              ></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
-              <a href="#"
-                ><i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer> -->
-   
   </div>
 
   <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-  <script src="./sideNavbar/side.js"></script>
 </body>
 </html>
