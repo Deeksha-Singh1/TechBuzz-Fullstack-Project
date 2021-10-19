@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
 }
-
+/* body{
+  
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+} */
 .main{
   width: 100%;
   background: linear-gradient(to top,rgba(0,0,0,0.5 )50%, rgba(0,0,0,0.5)50%) ,url(tb.jfif);
@@ -25,7 +29,7 @@
 }
 
 .logo{
-  color: #ff7200;
+  color:teal;
   font-size: 35px;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
@@ -59,7 +63,7 @@ ul li a {
   transition: 0.4s ease-in-out;
 }
 ul li a:hover{
-  color: #ff7200;
+  color: teal;
 }
 .search{
   width: 330px;
@@ -71,7 +75,7 @@ ul li a:hover{
   width: 200px;
   height: 40px;
   background: transparent;
-  border: 1px solid #ff7200;
+  border: 1px solid teal;
   margin-top: 13px;
   color:#fff;
   border-right: none;
@@ -84,8 +88,8 @@ ul li a:hover{
 .btn{
   width:100px;
   height:40px;
-  background: #ff7200;
-  border: 2px solid #ff7200;
+  background: teal;
+  border: 2px solid teal;
   margin-top: 13px;
   color:#fff;
   font-size: 15px;
@@ -126,7 +130,7 @@ ul li a:hover{
 .content .cn{
   width: 160px;
   height: 40px;
-  background: #ff7200;
+  background: teal;
   border: none;
   margin-bottom: 10px;
   margin-left: 20px;
@@ -147,14 +151,15 @@ ul li a:hover{
 }
 
 .content span{
-  color:#ff7200;
+  color:teal;
   font-size: 60px;
 
 }
 .form{
-  width: 250px;
+  width: 279px;
   height: 380px;
-  background: linear-gradient(to top,rgba(0,0,0.0.8)50%,rgba(0,0,0,0.8)50%);
+  background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+  position: absolute;
   top:-20px;
   left:870px;
   border-radius: 10px;
@@ -165,7 +170,7 @@ ul li a:hover{
   width: 220px;
   font-family: sans-serif;
   text-align: center;
-  color: #ff7200;
+  color: teal;
   font-size: 22px;
   background-color: #fff;
   border-radius: 10px;
@@ -178,7 +183,7 @@ ul li a:hover{
   width: 240px;
   height: 35px;
   background: transparent;
-  border-bottom: 1px solid #ff7200;
+  border-bottom: 1px solid teal;
   border-top: none;
   border-right: none;
   border-left: none;
@@ -202,19 +207,19 @@ ul li a:hover{
 .btnn{
   width: 240px;
   height: 40px;
-  background: #ff7200;
+  background: teal;
   border: none;
-  margin-top: 330px;
+  margin-top: 30px;
   font-size: 18px;
   border-radius: 10px;
   cursor: pointer;
   color: #fff;
-  transition: ;
+  transition:0.4s ease ;
 }
 
 .btnn:hover{
   background: #fff;
-  color: #ff7200;
+  color:teal;
 }
 
 .btnn a{
@@ -231,7 +236,7 @@ ul li a:hover{
 
 .form .link a{
   text-decoration: none;
-  color:#ff7200 ;
+  color:teal;
 }
 
 .liw{
@@ -239,4 +244,21 @@ ul li a:hover{
   padding-bottom: 10px;
   text-align: center ;
 
+}
+.icons a{
+  text-decoration: none;
+  color: #fff;
+}
+.icons ion-icon{
+  color:#fff;
+  font-size: 30px;
+  padding-left: 18px;
+  padding-top: 5px;
+  transition: 0.3s ease
+}
+.icons ion-icon:hover{
+  color: teal;
+}
+.sidenav{
+  display: inline-flex;
 }

@@ -6,13 +6,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>techBuzz</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./sideNavbar/side.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+  
 </head>
 <body>
-  <div class="main" >
+  
+  <!-- <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus icon'></i>
+        <div class="logo_name">TechBuzz</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Search...">
+         <span class="tooltip">Search</span>
+      </li>
+      <li>
+         <a href="#"> 
+           <i class='bx bx-grid-alt'></i>
+         <span class="links_name">Dashboard</span>
+         </a>
+          <span class="tooltip">Dashboard</span> 
+      </li>
+      <li>
+        <a href="#">
+         <i class='bx bx-user' ></i>
+         <span class="links_name">User</span>
+       </a> 
+       <span class="tooltip">User</span>
+     </li>
+     <li>
+        <a href="#"> 
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Messages</span>
+       </a> 
+       <span class="tooltip">Messages</span>
+     </li>
+     <li>
+        <a href="#">
+         <i class='bx bx-pie-chart-alt-2' ></i>
+         <span class="links_name">Analytics</span>
+        </a> 
+       <span class="tooltip">Analytics</span>
+     </li>
+     <li>
+        <a href="#">
+         <i class='bx bx-folder' ></i>
+         <span class="links_name">File Manager</span>
+       </a>
+       <span class="tooltip">Files</span>
+     </li>
+     <li>
+       <a href="#"> 
+         <i class='bx bx-cart-alt' ></i>
+         <span class="links_name">Order</span>
+       </a> 
+       <span class="tooltip">Order</span>
+     </li>
+     <li>
+       <a href="#"> 
+         <i class='bx bx-heart' ></i>
+         <span class="links_name">Saved</span>
+       </a>
+       <span class="tooltip">Saved</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-cog' ></i>
+         <span class="links_name">Setting</span>
+       </a> 
+       <span class="tooltip">Setting</span>
+     </li>
+     <li class="profile">
+         <div class="profile-details">
+           <img src="profile.jpg" alt="profileImg">
+           <div class="name_job">
+             <div class="name">Deeksha Singh</div>
+             <div class="job">Web designer</div>
+           </div>
+         </div>
+         <i class='bx bx-log-out' id="log_out" ></i>
+     </li>
+    </ul>
+  </div>  -->
+
+
+  <div class="main"> 
     <div class="navbar">
       <div class="icon">
-        <h2 class="logo">TechBuzz</h2>
-      </div>
+        <h2 class="logo">TechBuzz </h2>
+        
+      </div> 
       
       <div class="menu">
         <ul>
@@ -20,31 +108,92 @@
           <li> <a href="#">ABOUT</a></li>
           <li> <a href="#">JOBS</a></li>
           <li> <a href="#">INTERVIEW PREP</a></li>
-          <li> <a href="#">CODE WITH US</a></li>
+          <li> <a href="https://www.onlinegdb.com/" target="_blank">CODE WITH US</a></li>
         </ul>
       </div>
+
       <div class="search">
         <input class="srch" type="search" name="" placeholder="Type to text">
         <a href="#"><button class="btn">Search</button></a>
       </div>
     </div>
+
+
     <div class="content">
       <h1>Web Design &<br><span>Development</span><br>Course</h1>
       <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam odio facere <br> quaerat nesciunt et<br> atque cumque totam facilis alias, provident modi quis nulla soluta dolorum qui eligendi amet nemo!</p>
+
       <button class="cn"><a href="#">Join Us</a></button>
+
       <div class="form">
         <h2>Login Here</h2>
         <input type="email" name="email" placeholder="Enter Email here">
-        <input type="password" name="" placeholder="Enter Password here">
+        <input type="password" name="********" placeholder="Enter Password here">
         <button class="btnn"><a href="#">Login</a></button>
-        <a class="link">Don't have an account<br>
-        <a href="#">Sign up </a>here</a></p>
+
+
+        <p class="link">Don't have an account<br>
+        <a href="#">Sign up </a>here</p>
         <p class="liw">Log in with</p>
-
+        <div class="icons">
+          <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
       </div>
-
     </div>
+    <!-- <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">shipping</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">order status</a></li>
+              <li><a href="#">payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+              <li><a href="#">watch</a></li>
+              <li><a href="#">bag</a></li>
+              <li><a href="#">shoes</a></li>
+              <li><a href="#">dress</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"
+                ><i class="fa fa-facebook-square" aria-hidden="true"></i
+              ></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
+              <a href="#"
+                ><i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+   
   </div>
-  <script></script>
+
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <script src="./sideNavbar/side.js"></script>
 </body>
 </html>
