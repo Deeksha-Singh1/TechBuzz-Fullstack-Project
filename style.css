@@ -262,3 +262,105 @@ ul li a:hover{
 .sidenav{
   display: inline-flex;
 }
+
+
+
+.mdiv h1{
+  font-size: 2.1 rem;
+  line-height: 1.4;
+  letter-spacing: 0.5 rem;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  position: relative;
+  color: #000;
+  font-size: 30px;
+}
+body{
+  background-color:rgb(20, 39, 39);
+}
+.mdiv{
+  width: 75%;
+  height: 250px; 
+  position: absolute;
+  left:50%;
+  /* top:50%; */
+
+  background-image: url(./img1.jpg);
+  background-size: 100% 100%;
+  transform: translate(-50%, 10%);
+  box-shadow: 1px 2px 10px 5px black;
+  animation: slider 9s infinite linear;
+}
+@keyframes slider{
+  0%{
+    background-image: url(./img3.jpg);
+  }
+  35%{
+    background-image: url(./img2.jpg);
+  }
+  75%{
+    ackground-image: url(./img3.jpg);
+  }
+}
+
+
+
+ .main2{
+  margin: 2%;
+  position: absolute;
+  bottom: -1100px;
+  /* transform: translate(-25px); */
+
+ }
+ 
+ .card{
+      width: 15%;
+      display: inline-block;
+      box-shadow: 2px 2px 20px white;
+      border-radius: 5px; 
+      margin: 2%;
+     }
+ 
+ .image img{
+   width: 100%;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   
+ 
+  
+  }
+ 
+ .title{
+  
+   text-align: center;
+   padding: 10px;
+   
+  }
+ 
+ h1{
+   font-size: 20px;
+  }
+ 
+ .des{
+   padding: 3px;
+   text-align: center;
+  background-color: white;
+   padding-top: 10px;
+        border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+ }
+ button{
+   margin-top: 40px;
+   margin-bottom: 10px;
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding:10px;
+ }
+ button:hover{
+   background-color: black;
+   color: white;
+   transition: .5s;
+   cursor: pointer;
+ }
