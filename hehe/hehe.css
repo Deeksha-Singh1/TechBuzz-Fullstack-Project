@@ -1,0 +1,44 @@
+body {
+  background: #181927;
+}
+
+body * {
+  font-family: sans-serif;
+}
+
+input, div {
+  position: absolute;
+  margin: auto;
+  height: 50px;
+  width: 90%;
+  max-width: 30pc; 
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 50px;
+  background: #1F2134;
+  outline: none;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-size: 20px;
+  color: #41FF8D;
+}
+
+div {
+  height: fit-content;
+  width: fit-content;
+  bottom: -100px;
+  color: #1F2134;
+  background: #41FF8D;
+  cursor: pointer;
+}
+
+div:hover {
+  background: rgba(65, 255, 141, 0.5);
+
+}
+
+input::placeholder {
+  color: rgba(65, 255, 141, 0.5);
+}
