@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin:0;
+}
+h1{
+    display: block;padding: 15px;color:#0dc7c7;
+    font-family: sans-serif;font-weight: 1000px;
+}
+h2{
+    display: block;padding: 15px;color:#1c7777;
+    font-family: Roboto;
+}
+h3{
+    display: block;padding: 15px;color:#808080;
+    font-family: Roboto; font-size: 20px;
+}
+ol li{
+    display: block;padding: 15px;color:#808080;
+    font-family: Roboto;font-size: larger;
+    font-weight: bolder;
+}
+ul li{
+    display: block;padding: 15px;color:#808080;
+    font-family: Roboto;font-size: larger;
+    font-weight: bolder;
+}
