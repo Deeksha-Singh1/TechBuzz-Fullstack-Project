@@ -38,10 +38,11 @@ body {
 }
 
 .main-wrapper-inside img{
-  width: 200px;
-  height: 200px;
+  width: 135px;
+  height: 170px;
   position: relative;
   z-index: -1;
+ 
 }
 
 .button {
