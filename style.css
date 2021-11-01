@@ -12,6 +12,7 @@
   background: linear-gradient(to top,rgba(0,0,0,0.5 )50%, rgba(0,0,0,0.5)50%) ,url(tb.jfif);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   height: 109vh;
 }
 
