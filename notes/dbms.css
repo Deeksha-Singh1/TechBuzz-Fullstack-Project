@@ -1,0 +1,96 @@
+body{
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 100%,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.8) 100%),
+        url(../tb.jfif);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        position:absolute;
+        top:0;
+}
+*{
+    margin: 0px;
+    padding:0px;
+}
+.detail{
+    width:80%;
+    float: right;
+}
+.mains h1{
+    color: white;
+    height: 60px;
+    width: 100%;
+    float: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: grey;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    /* animation-name: heading;
+    animation-duration: 6s; */
+    animation: heading 6s infinite;
+    animation-timing-function: linear;
+    position: fixed;
+    padding-left: 160px;
+}
+@keyframes heading {
+    from{background-color:aqua; color: white;text-shadow:4px 4px #000000; }
+    to{background-color: teal; color: white; text-shadow: 4px 4px #000000;}
+}
+.detail h2{
+    position: relative;
+    top:60px;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+.detail p{
+    color:gainsboro;
+    font-size: 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+iframe{
+    float: right;
+   overflow:hidden;
+   margin-top: 20px;
+   width:1400px;
+}
+li a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}
+li a:hover{
+    color: white;
+    font-size: 22px;
+    color: black;
+}
+li a:visited{
+    color:rgb(138, 138, 252);
+}
+ul{
+    list-style-type: none;
+}
+aside{
+    
+    width:20%;
+    height: 100vh;
+    background-color: teal;
+    position: fixed;
+    overflow:scroll;
+    left: 0;
+}
+.head h1{
+    font-size: 25px;
+    border: 1px ;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    text-align: center;
+    margin: 6px;
+}
