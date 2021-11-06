@@ -1,3 +1,6 @@
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -12,6 +15,7 @@
   background: linear-gradient(to top,rgba(0,0,0,0.5 )50%, rgba(0,0,0,0.5)50%) ,url(tb.jfif);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   height: 109vh;
 }
 
@@ -42,7 +46,7 @@
   float: left;
   height: 70px;
 }
-ul{
+.menu ul{
   float: left;
   display: flex;
   justify-content: center;
@@ -294,13 +298,13 @@ body{
 }
 @keyframes slider{
   0%{
-    background-image: url(./img3.jpg);
+    background-image: url(./assets/img3.jpg);
   }
   35%{
-    background-image: url(./img2.jpg);
+    background-image: url(./assets/img1.jpg);
   }
   75%{
-    ackground-image: url(./img3.jpg);
+    background-image: url(./assets/img2.jpg);
   }
 }
 
@@ -364,3 +368,99 @@ body{
    transition: .5s;
    cursor: pointer;
  }
+ .row{
+  background-color:black;
+  position: absolute;
+  bottom: -1445px;
+  left:0px;
+}
+
+
+.container{
+ max-width: 1170px;
+ margin:auto;
+}
+.row{
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+}
+ul{
+ list-style: none;
+}
+.footer{
+ background-color: #24262b;
+   padding: 70px 0;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+  
+}
+.footer-col h4{
+ font-size: 18px;
+ color: #ffffff;
+ text-transform: capitalize;
+ margin-bottom: 35px;
+ margin-top: 35px;
+ margin-left: 55px;
+ font-weight: 500;
+ position: relative;
+}
+.footer-col h4::before{
+ content: '';
+ position: absolute;
+ left:0;
+ bottom: -10px;
+ background-color:teal;
+ height: 2px;
+ box-sizing: border-box;
+ width: 50px;
+}
+.footer-col ul li:not(:last-child){
+ margin-bottom: 10px;
+}
+.footer-col ul li a{
+ position: relative;
+ font-size: 16px;
+ text-transform: capitalize;
+ color: #ffffff;
+ text-decoration: none;
+ font-weight: 300;
+ color: #bbbbbb;
+ display: inline-block;
+ transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+ color: #ffffff;
+ padding-left: 8px;
+}
+.footer-col .social-links a{
+ display: inline-block;
+ height: 40px;
+ width: 40px;
+ background-color: rgba(255,255,255,0.2);
+ margin:0 10px 10px 0;
+ text-align: center;
+ line-height: 40px;
+ border-radius: 50%;
+ color: #ffffff;
+ transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+ color: #24262b;
+ background-color: #ffffff;
+}
+
+
+@media(max-width: 767px){
+ .footer-col{
+   width: 50%;
+   margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+ .footer-col{
+   width: 100%;
+}
+}
