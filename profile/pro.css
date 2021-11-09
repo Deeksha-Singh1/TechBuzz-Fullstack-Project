@@ -159,3 +159,62 @@ body {
   transform: rotate(-1000deg);
   font-size: large;
 }
+/* edit css */
+.compose{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button1{
+  border-radius: 50%;
+  width: 58px;
+  height: 58px;
+  background-color: #0079a4;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1); 
+  box-shadow: -1px 2px 12px rgba(0, 0, 0, 0.4);
+  will-change: transform;
+
+}
+.button2{
+  border-radius: 50%;
+  width: 58px;
+  height: 58px;
+  background-color: #0079a4;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1); 
+  box-shadow: -1px 2px 12px rgba(0, 0, 0, 0.4);
+  will-change: transform;
+
+}
+.button3{
+  border-radius: 50%;
+  width: 58px;
+  height: 58px;
+  background-color: #0079a4;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1); 
+  box-shadow: -1px 2px 12px rgba(0, 0, 0, 0.4);
+  will-change: transform;
+}

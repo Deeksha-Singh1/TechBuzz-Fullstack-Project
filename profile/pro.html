@@ -14,6 +14,7 @@
 
 </head>
 <body>
+  <div class="compose">
   <div class="main-wrapper">
   <div class="button">
     <i class="fa fa-plus"></i>
@@ -36,6 +37,79 @@
       <a href="https://www.linkedin.com/" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true" style="text-decoration: none; color: #fff;"></i></a>
     </div> 
   </div>
+  </div>
+  <!-- 2nd Profile -->
+  <div class="main-wrapper">
+    <div class="button1">
+      <i class="fa fa-plus"></i>
+    </div>
+    <div class="main-wrapper-inside">
+      <img src="../assets/D.jpg" style="border-radius: 1800rem;">
+    </div>
+    <div class="button-wrapper first">
+      <div class="button-inside first">
+        <a href="https://www.facebook.com/" target="_blank" ><i class="fa fa-facebook-square" aria-hidden="true" style="text-decoration: none; color: #fff;"></i></a>
+      </div> 
+    </div>
+    <div class="button-wrapper second">
+      <div class="button-inside second">
+        <a href="https://www.google.com/" target="_blank" ><i class="fa fa-google" aria-hidden="true" style="text-decoration: none; color: #fff;"></i></a>
+      </div> 
+    </div>
+    <div class="button-wrapper third">
+      <div class="button-inside third">
+        <a href="https://www.linkedin.com/" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true" style="text-decoration: none; color: #fff;"></i></a>
+      </div> 
+    </div>
+    </div>
+     <!-- 3rd profile -->
+     <div class="main-wrapper">
+      <div class="button2">
+        <i class="fa fa-plus"></i>
+      </div>
+      <div class="main-wrapper-inside">
+        <img src="../assets/D.jpg" style="border-radius: 1800rem;">
+      </div>
+      <div class="button-wrapper first">
+        <div class="button-inside first">
+          <a href="https://www.facebook.com/" target="_blank" ><i class="fa fa-facebook-square" aria-hidden="true" style="text-decoration: none; color: #fff;"></i></a>
+        </div> 
+      </div>
+      <div class="button-wrapper second">
+        <div class="button-inside second">
+          <a href="https://www.google.com/" target="_blank" ><i class="fa fa-google" aria-hidden="true" style="text-decoration: none; color: #fff;"></i></a>
+        </div> 
+      </div>
+      <div class="button-wrapper third">
+        <div class="button-inside third">
+          <a href="https://www.linkedin.com/" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true" style="text-decoration: none; color: #fff;"></i></a>
+        </div> 
+      </div>
+      </div>
+      <!-- 4th profile -->
+      <div class="main-wrapper">
+        <div class="button3">
+          <i class="fa fa-plus"></i>
+        </div>
+        <div class="main-wrapper-inside">
+          <img src="../assets/D.jpg" style="border-radius: 1800rem;">
+        </div>
+        <div class="button-wrapper first">
+          <div class="button-inside first">
+            <a href="https://www.facebook.com/" target="_blank" ><i class="fa fa-facebook-square" aria-hidden="true" style="text-decoration: none; color: #fff;"></i></a>
+          </div> 
+        </div>
+        <div class="button-wrapper second">
+          <div class="button-inside second">
+            <a href="https://www.google.com/" target="_blank" ><i class="fa fa-google" aria-hidden="true" style="text-decoration: none; color: #fff;"></i></a>
+          </div> 
+        </div>
+        <div class="button-wrapper third">
+          <div class="button-inside third">
+            <a href="https://www.linkedin.com/" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true" style="text-decoration: none; color: #fff;"></i></a>
+          </div> 
+        </div>
+        </div>
 </div>
  
 <script>
@@ -59,6 +133,69 @@ btn.addEventListener('click', function(){
   }
   
 });
+// 2nd js
+var btn1 = document.querySelector('.button1');
+var buttonWrapper = document.querySelectorAll('.button-wrapper');
+
+btn1.addEventListener('click', function(){
+  
+  if(btn1.classList.contains('animation')) {
+    btn1.classList.remove('animation');
+  } else {
+    btn1.classList.add('animation');
+  }
+  
+  for (i = 0; i < buttonWrapper.length; i++) {
+    if(buttonWrapper[i].classList.contains('animation')){
+      buttonWrapper[i].classList.remove('animation');   
+    } else {
+      buttonWrapper[i].classList.add('animation');
+    }  
+  }
+  
+});
+// 3rd js
+var btn = document.querySelector('.button2');
+var buttonWrapper = document.querySelectorAll('.button-wrapper');
+
+btn.addEventListener('click', function(){
+  
+  if(btn.classList.contains('animation')) {
+    btn.classList.remove('animation');
+  } else {
+    btn.classList.add('animation');
+  }
+  
+  for (i = 0; i < buttonWrapper.length; i++) {
+    if(buttonWrapper[i].classList.contains('animation')){
+      buttonWrapper[i].classList.remove('animation');   
+    } else {
+      buttonWrapper[i].classList.add('animation');
+    }  
+  }
+  
+});
+// 3th js
+var btn = document.querySelector('.button3');
+var buttonWrapper = document.querySelectorAll('.button-wrapper');
+
+btn.addEventListener('click', function(){
+  
+  if(btn.classList.contains('animation')) {
+    btn.classList.remove('animation');
+  } else {
+    btn.classList.add('animation');
+  }
+  
+  for (i = 0; i < buttonWrapper.length; i++) {
+    if(buttonWrapper[i].classList.contains('animation')){
+      buttonWrapper[i].classList.remove('animation');   
+    } else {
+      buttonWrapper[i].classList.add('animation');
+    }  
+  }
+  
+}); 
 </script>
   
 </body>
