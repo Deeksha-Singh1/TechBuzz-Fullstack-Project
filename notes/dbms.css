@@ -37,7 +37,7 @@ body{
     padding-left: 160px;
 }
 @keyframes heading {
-    from{background-color:aqua; color: white;text-shadow:4px 4px #000000; }
+    from{background-color:teal; color: white;text-shadow:4px 4px #000000; }
     to{background-color: teal; color: white; text-shadow: 4px 4px #000000;}
 }
 .detail h2{
@@ -71,7 +71,7 @@ li a:hover{
     color: black;
 }
 li a:visited{
-    color:rgb(138, 138, 252);
+    color:rgb(202, 202, 228);
 }
 ul{
     list-style-type: none;
@@ -86,11 +86,11 @@ aside{
     left: 0;
 }
 .head h1{
-    font-size: 25px;
+    font-size: 23px;
     border: 1px ;
     background-color: white;
     color: black;
-    border-radius: 12px;
+    border-radius: 7px;
     text-align: center;
-    margin: 6px;
+    margin: 9px;
 }
