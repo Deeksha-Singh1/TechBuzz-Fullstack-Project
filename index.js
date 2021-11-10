@@ -1,8 +1,3 @@
-// document.querySelector("div").addEventListener("click", e=>{
-//   responsiveVoice.speak(document.querySelector("input").value, "Hindi Female");
-
-// })
-
 var toggle_btn;
 var big_wrapper;
 var hamburger_menu;
